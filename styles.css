@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaeaea; 
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #ffffff; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); 
+}
+
+h1 {
+    text-align: center;
+    color: #4a90e2; 
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4a90e2; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #357ABD; 
+}
+
+#result {
+    margin-top: 20px;
+    padding: 10px;
+    background: #f0f8ff; 
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.hidden {
+    display: none;
+}
+
+#errorMessage {
+    color: red;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#teachingMessage {
+    color: #4a90e2; 
+    margin-top: 10px;
+}
+
+#learningPrompt {
+    margin-top: 10px;
+    padding: 10px;
+    background: #f9f9f9; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#learningPrompt p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333; 
+}
+
+#yesButton, #noButton {
+    width: 48%;
+    padding: 10px;
+    background-color: #5cb85c; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#yesButton:hover {
+    background-color: #4cae4c; 
+}
+
+#noButton {
+    background-color: #d9534f; 
+}
+
+#noButton:hover {
+    background-color: #c9302c; 
+}
+
+#quizSection {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f9f9f9; /* Light gray background for quiz section */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#quizMessage {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#quizQuestion {
+    font-size: 18px;
+    margin-bottom: 10px;
+}

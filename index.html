@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary to Text Converter</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Optional: Add some basic styling for better visibility */
+        .hidden {
+            display: none;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            text-align: center;
+            padding: 20px;
+        }
+        textarea {
+            width: 100%;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 10px 15px;
+            margin: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Binary to Text Converter</h1>
+        <textarea id="inputField" placeholder="Enter binary numbers or text"></textarea>
+        <button id="convertButton">Convert</button>
+        <h2>Converted Result:</h2>
+        <div id="result"></div>
+        <div id="message" class="hidden"></div>
+        <div id="learningPrompt" class="hidden">
+            <p>Would you like to learn how binary works?</p>
+            <button id="yesButton">Yes</button>
+            <button id="noButton">No</button>
+        </div>
+
+        <!-- Quiz Section -->
+        <div id="quizSection" class="hidden">
+            <h2>Binary Knowledge Quiz</h2>
+            <div id="quizQuestion"></div>
+            <input type="text" id="quizAnswer" placeholder="Your answer" />
+            <button id="submitAnswerButton">Submit Answer</button>
+            <div id="quizMessage" class="hidden"></div>
+            <h3>Your Quiz Score: <span id="quizScore">0</span></h3>
+            <h3>Questions Attempted: <span id="questionsAttempted">0</span></h3>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
